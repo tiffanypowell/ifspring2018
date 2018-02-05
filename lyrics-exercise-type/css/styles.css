@@ -1,0 +1,60 @@
+body {
+	height: 100%;
+	background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/asanoha-400px.png);
+	background-position: right;
+	background-repeat: repeat;
+	background-size: cover;
+	text-align: center;
+	font-family: "Quicksand","Arial",sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	color: rgb(56, 54, 54);
+	margin-bottom: 200px;
+}
+
+section {
+	margin-bottom: 25px;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 3rem;
+	margin: 0px;
+	text-transform: uppercase;
+	color: rgb(255, 99, 127);
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 1.5rem;
+	color: rgb(76, 75, 75);
+}
+
+#special {
+	color: rgb(255, 99, 127);
+	text-transform: uppercase;
+}
+
+#top {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.chorus {
+	font-weight: 700;
+	line-height: 40px;
+	font-size: 1.5rem;
+}
+
+.verse {
+	color: rgb(56, 54, 54);
+	font-weight: 400;
+}
+
+
+
+
+
+
+
