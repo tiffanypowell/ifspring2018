@@ -1,0 +1,98 @@
+body {
+	margin: 0px 0px 150px 0px;
+	height: 100%;
+	width: 100%;
+	background-image: url(http://www.designbolts.com/wp-content/uploads/2012/12/SubtleNet-White-Simple-Seamless-Patterns-For-Website-Backgrounds.jpg);
+	background-position: center;
+	background-repeat: repeat;
+	text-align: center;
+	line-height: 30px;
+
+	font-family: "Lato","Arial",sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: rgb(56, 54, 54);
+}
+
+section {
+	margin-bottom: 25px;
+}
+
+h1 {
+	margin: 40px 0px 10px 100px;
+
+	font-size: 4rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	
+}
+
+h2 {
+	margin: 0px 0px 10px 105px;
+
+	font-size: 2rem;
+	font-weight: 300;
+	
+}
+
+h3 {
+	margin-bottom: 0px;
+
+	font-family: "Quicksand","Arial",sans-serif;
+	font-size: 2rem;
+	font-weight: 400;
+	color: rgb(200, 200, 200);
+	text-transform: uppercase;
+}
+
+#top {
+	padding-top: 25px;
+	padding-bottom: 12px;
+	height: 175px;
+	background-image: url(https://78.media.tumblr.com/41d79d38d64194020bcd21e204c5b348/tumblr_p414xoOwMU1swlvego1_1280.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-left: 75px solid;
+	border-color: rgb(150, 150, 150);
+
+	font-family: "Quicksand","Arial",sans-serif;
+	text-align: left;
+	line-height: 1;
+	font-weight: 300;
+	color: white;
+	
+}
+
+#audio {
+	text-align: right;
+}
+
+.lyrics {
+/*	margin-left: 100px;*/
+}
+
+.chorus {
+/*	font-weight: 700;
+	line-height: 40px;
+	font-size: 1.5rem;*/
+}
+
+.chorus:before {
+	content: "[chorus]";
+	display: block;
+	color: rgb(150, 150, 150);
+}
+
+.verse:before {
+	content: "[verse]";
+	display: block;
+	color: rgb(150, 150, 150);
+}
+
+
+
+
+
+
+
