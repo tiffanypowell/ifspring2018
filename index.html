@@ -4,6 +4,8 @@
 	<title>Wake Me Up Lyrics</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:800,900" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script/styles.script"></script>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -15,14 +17,23 @@
 			<h2>Ed Sheeran</h2>
 			<h2>+</h2>
 		</section>
-		<div id="audio-container">
-			<img src="css/album.jpg" id="album">
-			<div id="audio">
-		  		<audio controls="">
-					<source src="wake-me-up.mp3" type="audio/mp3">
-					<p>Your browser doesn't support HTML5 audio.</p>	
-				</audio>
+		<div id="drawer">
+			<div class="contents">
+				<img src="css/album.jpg" id="album">
+				<div id="audio">
+			  		<audio controls="">
+						<source src="wake-me-up.mp3" type="audio/mp3">
+						<p>Your browser doesn't support HTML5 audio.</p>	
+					</audio>
+				</div>
 			</div>
+			<button class="controls"></button>
+		</div>
+		<div id="sml-screen-audio">
+			  		<audio controls="">
+						<source src="wake-me-up.mp3" type="audio/mp3">
+						<p>Your browser doesn't support HTML5 audio.</p>	
+					</audio>
 		</div>
 		<section id="lyrics">
 			<p>
@@ -83,6 +94,7 @@
 				Or maybe I'm just in love when you wake me up.<br>
 				Maybe I fell in love when you woke me up.<br><br>
 			</p>
+			<span>+</span>
 		</section>
 	</div>
 	<img src="css/background-bottom.svg" id="doodles-bottom">
