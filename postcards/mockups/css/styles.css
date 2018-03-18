@@ -1,0 +1,10 @@
+body {
+	text-align: center;
+	font-family: 'IBM Plex Sans', 'Arial', sans-serif;
+	letter-spacing: 2px;
+}
+
+img {
+	height: 400px;
+	display: inline-block;
+}
