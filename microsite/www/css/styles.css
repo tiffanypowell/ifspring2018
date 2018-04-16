@@ -1,0 +1,510 @@
+/*-------------------------------------------------------- GENERAL --------------------------------------------------------*/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'IBM Plex Sans', sans-serif;
+	background-color: #efefef;
+}
+
+button:focus {
+	outline: 0;
+}
+
+#what-is-mr, #history, #technology, #applications {
+	color: rgb(60, 60, 60);
+	font-size: 14pt;
+}
+
+.content {
+	padding-left: 175px;
+	padding-right: 175px;
+}
+
+.page h1 {
+	margin: 0px;
+	padding: 75px 0px 50px 0px;
+	background-color: #f2f2f2;
+	font-weight: 400;
+	font-size: 35pt;
+}
+
+.page h2 {
+	margin: 0px;
+	padding: 0px 0px 25px 0px;
+	font-size: 25pt;
+	font-weight: 400;
+}
+
+.page p {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 14pt;
+	font-weight: 300;
+	margin-bottom: 30px;
+	line-height: 30px;
+}
+
+/*-------------------------------------------------------- MENU --------------------------------------------------------*/
+
+#menu {
+	height: 40px;
+	width: 100%;
+	padding: 15px 0px 15px 0px;
+	background-color: #3d3d3e;
+	text-align: right;
+	color: white;
+}
+
+#menu a.tab {
+	display: inline-block;
+	height: auto;
+	margin: 5px 25px 5px 25px;
+	padding: 5px 10px 0px 10px;
+	border: 0;
+	background-color: rgba(0,0,0,0);
+	font-size: 12pt;
+	font-weight: 200;
+	color: white;
+	text-decoration: none;
+	transition: all .3s;
+}
+
+#menu a.tab:hover {
+	color: #bcbcbc;
+}
+
+/*#menu button:focus {
+	outline: 0;
+}*/
+
+#logo{
+	position: absolute;
+	height: 40px;
+	margin: 0px 25px 0px 25px;
+}
+
+#logo img {
+	height: 40px;
+}
+
+/*-------------------------------------------------------- HEADER IMAGE--------------------------------------------------------*/
+
+.header{
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: none;
+}
+
+
+
+/*-------------------------------------------------------- HOME PAGE --------------------------------------------------------*/
+
+#home-page {
+	color: white;
+	text-shadow: 4px 4px 4px rgba(60, 60, 60, 0.55);
+}
+
+.slideshow h1 {
+	margin: 0px;
+	margin-bottom: 5px;
+	padding: 0px;
+	font-weight: 500;
+	font-size: 50pt;
+}
+
+#home-page h2 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 25pt;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.slideshow {
+	position: absolute;
+	width: 100%;
+	height: 92%;
+}
+
+.slideshow .text {
+	position: absolute;
+	top: 50%;
+	left: 100px;
+	transform: translateY(-50%);
+}
+
+#background {
+	background-color: rgb(60,60,60);
+}
+
+.slideshow button {
+	position: absolute;
+	top: 50%;
+	right: 100px;
+	transform: translateY(-50%);
+	font-size: 100px;
+	font-weight: 600;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0,0,0,0);
+	border: 0;
+	text-shadow: 4px 4px 4px rgba(60, 60, 60, 0.55);
+	transition: .5s;
+}
+
+.slideshow button:hover {
+	color: #efefef;
+	text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+}
+
+#one {
+	background-image: url(../img/plane.jpg);
+}
+
+#two {
+	background-image: url(../img/kid.jpg);
+	background-size: cover;
+}
+
+#three {
+	background-image: url(../img/astro.jpg);
+	background-size: cover;
+}
+
+/*-------------------------------------------------------- TECHNOLOGY --------------------------------------------------------*/
+
+
+#technology .header{
+	background-image: url(../img/woman-hololens.jpg);
+}
+
+.gray-box {
+	margin-bottom: 50px;
+	padding: 25px 175px 25px 175px;
+	height: auto;
+	background-color: rgba(60, 60, 60, 1);
+	color: white;
+}
+
+.gray-box > div{
+	margin: auto;
+	width: 750px;
+}
+
+.sketchfab-embed-wrapper {
+	margin-bottom: 50px;
+}
+
+ul {
+	font-weight: 300;
+	padding: 0px 100px 0px 100px;
+	margin-bottom: 30px;
+	line-height: 30px;
+	list-style: none;
+}
+
+li {
+	border-left: solid rgb(60,60,60) 3px;
+	padding-left: 20px;
+}
+
+/*-------------------------------------------------------- APPLICATIONS --------------------------------------------------------*/
+
+#applications p {
+	margin-bottom: 90px;
+}
+
+#applications .header {
+	background-image: url(../img/game.jpg);
+	background-position: top;
+}
+
+#squares {
+	margin: auto;
+	width: 765px;
+}
+
+#squares div {
+	display: inline-block;
+	height: 350px;
+	width: 350px;
+	color: white;
+	margin: 15px 15px 15px 15px;
+	background-size: contain;
+	background-color: rgba(0,0,0,0);
+}
+
+.workplace-text {
+	display: block;
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	margin: 0px;
+	padding-top: 15px;
+}
+
+.workplace-title {
+	display: block;
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	margin: 0px;
+}
+
+#squares p {
+	margin: auto;
+	padding-top: 55px;
+	padding-right: 25px; 
+	width: 300px;
+	text-align: center;
+	font-size: 13pt;
+	font-weight: 100;
+	text-shadow: 4px 4px 4px rgba(60, 60, 60, 0.55);
+}
+
+#squares h3 {
+	margin: 0px -20px 0px -20px;
+	width: 350px;
+	text-align: center;
+	display: block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-85%);
+	font-size: 30px;
+	font-weight: 400;
+	text-shadow: 4px 4px 4px rgba(60, 60, 60, 0.55);
+}
+
+#squares a {
+	display: block;
+	position: relative;
+	height: 350px;
+	width: 350px;
+	left: 0px;
+}
+
+.architecture-title {
+	display: block;
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	margin: 0px;
+}
+
+.architecture-text {
+	display: block;
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	margin: 0px;
+	padding-top: 30px;
+}
+
+.archaeology-title {
+	display: block;
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	margin: 0px;
+}
+
+.archaeology-text {
+	display: block;
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	margin: 0px;
+	padding-top: 20px;
+}
+
+.education-title {
+	display: block;
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	margin: 0px;
+}
+
+.education-text {
+	display: block;
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	margin: 0px;
+	padding-top: 10px;
+}
+
+#workplace {
+	background-image: url(../img/pages/doctor-temp.jpg);
+}
+
+#architecture {
+	background-image: url(../img/pages/p-building-temp.jpg);
+}
+
+#archaeology {
+	background-image: url(../img/pages/notre-dame-temp.jpg);
+}
+
+#education {
+	background-image: url(../img/pages/kid-at-desk-temp.jpg);
+}
+
+/*-------------------------------------------------------- WHAT IS MR? --------------------------------------------------------*/
+
+#what-is-mr .header {
+	background-image: url(../img/microsoft.jpg);
+	background-position: top;
+}
+
+.gray-box {
+	text-align: right;
+}
+
+.gray-box h2 {
+	text-align: center;
+	margin: 0px;
+	padding: 75px 25px 25px 25px;
+	font-weight: 300;
+	font-size: 26pt;
+	text-shadow: 4px 4px 4px rgba(60, 60, 60, 0.55);
+}
+
+#source {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 15px;
+	width: 275px;
+	text-align: right;
+}
+
+#source h3 {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14pt;
+	font-weight: 400;
+}
+
+#source p {
+	margin: 0px;
+	margin-left: 0px;
+	display: inline-block;
+	width: 200px;
+	font-size: 10pt;
+	line-height: 22.5px;
+}
+
+/*-------------------------------------------------------- HISTORY --------------------------------------------------------*/
+
+#history .header {
+	background-image: url(../img/dino.jpg);
+	background-position: cover;
+}
+
+.content .bigger-margin {
+	margin-bottom: 55px;
+}
+
+/*.milestone div {
+	display: inline-block;
+	width: 50%;
+}*/
+
+#flight-simulator div {
+	background-image: url(../img/flight-simulator.jpg);
+}
+
+#head-mounted div {
+	background-image: url(../img/head-mounted.png);
+}
+
+#sensorama div {
+	background-image: url(../img/sensorama.jpg);
+}
+
+#artificial div {
+	background-image: url(../img/videoplace.jpg);
+}
+
+#dancing div {
+	background-image: url(../img/dancing.jpeg);
+}
+
+#bars div {
+	background-image: url(../img/bars.jpg);
+}
+
+#toolkit div {
+	background-image: url(../img/toolkit.jpg);
+}
+
+#glass div {
+	background-image: url(../img/glass.jpg);
+}
+
+#hololens div {
+	background-image: url(../img/hololens.png);
+}
+
+#sensorama div, #artificial div, #bars div, #glass div {
+	order: 1;
+	margin-left: 0px;
+	margin-right: 25px;
+}
+
+#sensorama p, #artificial p, #bars p, #glass p {
+	margin-right: 0px;
+	margin-left: 25px;
+}
+
+.milestone .img {
+	order: 2;
+	background-size: cover;
+	background-position: center; 
+	display: inline-block;
+	flex: 1;
+	margin-left: 25px; 
+}
+
+.milestone {
+	display: flex;
+	width: 100%;
+	margin-bottom: 75px;
+}
+
+.milestone p{
+	text-align: justify;
+	order: 1;
+	width: 50%;
+	margin: 0px;
+	margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
