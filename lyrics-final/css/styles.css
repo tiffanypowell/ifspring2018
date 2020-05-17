@@ -136,7 +136,7 @@ h2, span {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 28px;
-	padding-bottom: 12%;
+	padding-bottom: 12% !important;
 }
 
 @media screen and (max-width: 800px) {
