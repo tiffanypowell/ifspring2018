@@ -131,7 +131,7 @@ h2, span {
 }
 
 #lyrics{
-	margin: 225px 30% 0px 30%;
+	margin: 225px 30% 0px 30% !important;
 	text-align: center;
 	font-size: 16px;
 	font-weight: 400;
